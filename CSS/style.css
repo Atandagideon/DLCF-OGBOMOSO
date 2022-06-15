@@ -188,12 +188,13 @@ hr.rounded {
 				font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.location h5{
+.location h5,a{
 				padding-left: 20px;
 				text-indent: 35px;
 				margin-top: -15px;
 				font-family: Arial;
 				color: #ff5415;
+				text-decoration: none;
 }
 
 .contacts{
