@@ -94,7 +94,7 @@ body{
 }
 
 .details{
-				background-color: #ffffff;
+				background-color: #f6f6f6;
 				width: 95%;
 				border: 0px solid #121d6e;
 				border-radius: 5px;
@@ -103,7 +103,7 @@ body{
 				height: auto;
 				min-height: 300px;
 				max-height: 350px;
-				overflow: scroll;
+				overflow: auto;
 				box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -168,7 +168,6 @@ hr.rounded {
 				 margin: 20px auto;				
 		 		 padding: 5px;
 				 height: auto;
-			 	 overflow: scroll;
 				 box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
