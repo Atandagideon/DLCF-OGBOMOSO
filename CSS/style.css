@@ -163,13 +163,13 @@ hr.rounded {
 				 width: 90%;
 				 background-color: white;
 				 min-height: 200px;
-				 border: 1.5px solid #121d6e;
+				 bordr: 1.5px solid #121d6e;
 				 border-radius: 5px;
 				 margin: 20px auto;				
 		 		 padding: 5px;
 				 height: auto;
 			 	 overflow: scroll;
-				 box-shadow: 1px 1px 6px #121d6e;
+				 box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .location h2{
@@ -275,7 +275,7 @@ hr.rounded {
 
 .link a{
  				border: 0px solid ; 
- 				background-color: #121d6e; 
+ 				background-color: #0d6efd; 
  				color: white;  
  				border-radius: 4px; 
  				margin:14px; 
