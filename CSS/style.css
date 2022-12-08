@@ -66,7 +66,7 @@ body{
 				color:white;
 				font-family: "Sofia", cursive;
 				font-weight: bold;
-				text-shadow: 2px 2px 5px blue;
+				text-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
 				font-size: 30px;
 }
 
@@ -81,7 +81,7 @@ body{
 .main h2{
 				padding-left:20px;
 				color: #121d6e;
-				font-family: "Oswald", Georgia;
+				font-family: Helvetica;
 				padding-bottom: -10px;
 }
 
@@ -90,7 +90,6 @@ body{
 				color: #f26e28;
 				font-family: arial;
 				padding-bottom: -10px;
-				font-weight: bold;
 }
 
 .details{
@@ -117,15 +116,14 @@ body{
 				padding: 5px;
 				height: auto;
 				min-height: 300px;
-				
-				overflow: scroll;
+				overflow: auto;
 				box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .detailse p{
 				font-family: 'arial', monospace;
 				word-spacing: 1px;
-				font-size: 16px;
+				font-size: 14.5px;
 				padding-left: 10px;
 				padding-bottom: 10px;
 				letter-spacing: 0.3px;
@@ -136,11 +134,11 @@ body{
 .details p{
 				font-family: 'arial', monospace;
 				word-spacing: 1px;
-				font-size: 16px;
+				font-size: 14.5px;
 				padding-left: 10px;
 				padding-bottom: 10px;
 				letter-spacing: 0.3px;
-				color: #212121;
+				color: #606060;
 				line-height: 1.6; 
 }
 .detailse h3{
@@ -182,9 +180,9 @@ hr.rounded {
    
 				color: #121d6e ;
 				padding-left: 20px;
-				font-weight: bold;
+				
 				font-size: 20px;
-				font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+				font-family: Helvetica;
 }
 
 .location h5,a{
