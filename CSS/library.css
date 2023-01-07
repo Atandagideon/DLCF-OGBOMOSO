@@ -52,7 +52,7 @@
 }
 
 .secttion{
-	margin-top: 200px;
+	margin-top: 20px;
 }
 
 .section-container{
@@ -65,7 +65,7 @@
 	box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.text-center a{
+.text-centerr a{
   width: 70px;
   background-color: #ff5415;
   text-decoration: none;
