@@ -46,9 +46,9 @@ body{
   background: #9d9dab; 
 }
 
-#sect a{
+/* #sect a{
     
-}
+} */
 
 #sect a.active {
   color: #f1643c;
@@ -100,8 +100,8 @@ body{
 				margin: 20px auto;				
 				padding: 5px;
 				height: auto;
-				min-hight: 300px;
-				max-heght: 350px;
+				min-height: 300px;
+				max-height: 350px;
 				overflow: auto;
 				box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.2);
 }
@@ -168,7 +168,7 @@ body{
 .about-dlcf h3, .weekly-activities h3, .pastors h3{
 	text-align: center;
 	font-size: 20px;
-	font-weiht: 600; 
+	font-weight: 600; 
 	font-family: Helvetica;
 	color: #121d6e;
 }
@@ -193,7 +193,7 @@ body{
 }
 
 .img8capt{
-	widh: 80%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -231,7 +231,7 @@ hr.rounded {
 				 width: 90%;
 				 background-color: white;
 				 min-height: 200px;
-				 bordr: 1.5px solid #121d6e;
+				 border: 1.5px solid #121d6e;
 				 border-radius: 5px;
 				 margin: 20px auto;				
 		 		 padding: 5px;
@@ -330,17 +330,17 @@ hr.rounded {
 }
 
 .sermon-download{
-  with: 130px;
-  backgroundcolor: #0d6efd;
+  width: 130px;
+  background-color: #0d6efd;
   text-decoration: none;
   color: #606060;
   margin-bottom: 15px;
   font-weight: bold;
-  paddig: 10px;
+  padding: 10px;
   text-align: center;
-  bordr: 1px solid #0d6efd;
-  border-adius: 4px;
-  box-shaow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid #0d6efd;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
 }
 
 /*  {
@@ -440,11 +440,31 @@ hr.rounded {
 	margin: 10px;
 }
 
+#preloader{
+	background: whitesmoke url(/img/loader2.gif) no-repeat center center;
+	background-size: 15%;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+#bible-verse{
+	background-color: #f6f6f6;
+	width: 95%;
+	border: 0px solid #121d6e;
+	border-radius: 5px;
+	margin: 20px auto;				
+	padding: 5px;
+	height: auto;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
 footer{
 				background-color: #121d6e;
 				text-align: center;
 				padding:-30px 30px 5px 30px;
-				paddng-top: -30px;
+				padding-top: -30px;
 				margin: 0 -8px 0 -8px;
 				color: white;
 				font-weight: normal;
@@ -484,7 +504,7 @@ ul.breadcrumb li a:hover {
 				 width: 90%;
 				 background-color: white;
 				 min-height: 200px;
-				 bordr: 1.5px solid #121d6e;
+				 border: 1.5px solid #121d6e;
 				 border-radius: 5px;
 				 margin: 20px auto;				
 		 		 padding: 5px;
