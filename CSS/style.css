@@ -436,6 +436,27 @@ hr.rounded {
 	margin: 10px;
 }
 
+#preloader{
+	background: whitesmoke url(/img/loader2.gif) no-repeat center center;
+	background-size: 15%;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+#bible-verse{
+	background-color: #f6f6f6;
+	width: 85%;
+	border: 0px solid #121d6e;
+	border-radius: 5px;
+	margin: 10px auto;	
+	margin-b0ttom: -20px;			
+	padding: 5px;
+	height: auto;
+	box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
 footer{
 				background-color: #121d6e;
 				text-align: center;
@@ -524,6 +545,10 @@ ul.breadcrumb li a:hover {
 		float: left;
 		width: 25%;
 	}
+
+	#bible-verse{
+	width: 75%;
+}
 }
 
 @media only screen and (min-width: 1100px ) {
